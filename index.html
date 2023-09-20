@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Under Maintenance</title>
+    <style>
+        @keyframes backgroundAnimation {
+            0% { background-color: #001f3f; }
+            12.5% { background-color: #ff7f0e; }
+            25% { background-color: #0074e4; }
+            37.5% { background-color: #e74c3c; }
+            50% { background-color: #4caf50; }
+            62.5% { background-color: #f39c12; }
+            75% { background-color: #9b59b6; }
+            87.5% { background-color: #3498db; }
+            100% { background-color: #001f3f; }
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: backgroundAnimation 15s infinite; /* Adjust animation duration as needed */
+        }
+
+        .profile-picture {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            border-radius: 50%;
+            border: 8px solid #ff7f0e;
+            width: 200px;
+            height: 200px;
+        }
+
+        .maintenance-container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+            top: 50px;
+        }
+
+        h1 {
+            color: #001f3f;
+            font-size: 36px;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        .maintenance-icon {
+            font-size: 100px;
+            color: #001f3f;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .social-icons a:hover {
+            color: #001f3f;
+        }
+
+        /* Set the size of the icons */
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-picture">
+        <img src="Mehedi Hasan Nayem.png" alt="Your Profile Picture" width="100%" height="100%">
+    </div>
+    <div class="maintenance-container">
+        <span class="maintenance-icon">🛠️</span>
+        <h1>Portfolio is under maintenance</h1>
+        <p>Working to improve Portfolio. Please check back later. Thank you!</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/nayemmhn/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/nayemmhn" target="_blank"><img src="fb.png" alt="Facebook"></a>
+        </div>
+    </div>
+</body>
+</html>
