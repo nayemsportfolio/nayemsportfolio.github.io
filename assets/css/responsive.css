@@ -1,0 +1,202 @@
+@media only screen and (max-width: 1700px){
+    #navx {
+        left: 38% !important;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    #navx {
+        left: 35% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #navx {
+        left: 33% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #navx {
+        left: 30% !important;
+    }
+    .text-10 {
+        font-size: 1.75rem !important;
+    }
+    .text-8 {
+        font-size: 1.45rem !important;
+    }
+    .text-7 {
+        font-size: 1.22rem !important;
+    }
+    .text-5 {
+        font-size: 1rem !important;
+    }
+    .text-4 {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    /* #navx {
+        left: 27% !important;
+    } */
+    table{
+        margin-left: 10px !important;
+    }
+    #certification .carousel-inner{
+        margin-left: -50px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #navx {
+        left: 27% !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #navx {
+        left: 24% !important;
+    }
+    #experience .col-md-6 {
+        border: none !important;
+    }
+    #certification #carouselExampleIndicators3{
+        width: 80%;
+        margin-left: 8%;
+    }
+    .carousel-indicators{
+        margin-left: -150px !important;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    #navx {
+        left: 15% !important;
+    }
+
+    #about .col-sm-4 img {
+        visibility: hidden;
+        position: absolute;
+    }
+    #certification .boxc {
+        width: 400px !important;
+        /* margin-left: 10px; */
+    }
+    .carousel-indicators{
+        margin-left: -400px !important;
+    }
+}
+
+@media only screen and (max-width: 490px){
+    #navx {
+        left: 10% !important;
+    }
+    #certification .boxc {
+        width: 300px !important;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #navx {
+        left: 3% !important;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    #navx {
+        left: 15% !important;
+        bottom: 25px !important;
+        width: 298px !important;
+        height: 50px;
+    }
+    .primary-menu ul.navbar-nav > li > a:not(.btn) {
+        padding: 0 5px;
+    }
+    #certification .boxc {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    #navx {
+        left: 10% !important;
+    }
+    #certification .boxc {
+        width: 250px !important;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    #navx {
+        left: 5% !important;
+    }
+    #certification .boxc {
+        width: 250px;
+        margin-left: 10px !important;
+    }
+    #testimonial .bgcc{
+        height: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 315px){
+    #navx {
+        left: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    #navx {
+        left: 9% !important;
+        width: 240px !important;
+        height: 42px !important;
+    }
+    #navx .navbar {
+        padding: 5px 10px !important;
+    }
+    #navx li img {
+        height: 13px !important;
+        width: 13px !important;
+        margin-right: 2px !important;
+    }
+}
+
+@media only screen and (max-width: 270px){
+    #navx {
+        left: 5% !important;
+    }
+}
+
+@media only screen and (max-width: 253px){
+    #navx {
+        left: 5px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 365px){
+    #navx {
+        visibility: hidden;
+    }
+    #navy {
+        visibility: visible !important;
+    }
+} */
